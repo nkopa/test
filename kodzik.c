@@ -29,6 +29,6 @@ void main(){
 	//Wyświetlanie wyniku na ekranie
 	printf("Liczb dodatnich: %d, liczb ujemnych: %d, liczb będących zerem: %d\nLiczby:\n",iloscd,iloscu,iloscz);
 	for(i=0;i<ilosc;i++){
-		printf("%lf\n", liczby[i]);
+		printf("liczba %i: %lf\n", i, liczby[i]);
 	}
 }
