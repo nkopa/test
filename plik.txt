@@ -1,1 +1,2 @@
 niepusty plik
+dodaje cos do pliku
