@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 void main(){
-printf("YEY YOU YOP itd itp\n");
+printf("YEY YOU YOP itd. itp.\n");
 	//Tablice
 	int ilosc = 5;
 	double liczby[ilosc];
