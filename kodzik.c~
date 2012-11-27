@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 void main(){
-printf("YEY YOU YOP itd itp\n");
 	//Tablice
 	int ilosc = 5;
 	double liczby[ilosc];
@@ -26,10 +25,8 @@ printf("YEY YOU YOP itd itp\n");
 			else
 				iloscz++;
 	}
-
-	//Wyświetlanie wyniku na ekranie
-	printf("Liczb dodatnich: %d, liczb ujemnych: %d, liczb będących zerem: %d\nLiczby:\n",iloscd,iloscu,iloscz);
+	printf("Liczb dodatnich: %d, ujemnych: %d, zer: %d\nLiczby:\n",iloscd,iloscu,iloscz);
 	for(i=0;i<ilosc;i++){
-		printf("liczba %i: %lf\n", i, liczby[i]);
+		printf("%lf\n", liczby[i]);
 	}
 }
