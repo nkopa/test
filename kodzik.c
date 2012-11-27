@@ -26,7 +26,9 @@ printf("YEY YOU YOP itd itp\n");
 			else
 				iloscz++;
 	}
-	printf("Liczb dodatnich: %d, ujemnych: %d, zer: %d\nLiczby:\n",iloscd,iloscu,iloscz);
+
+	//Wyświetlanie wyniku na ekranie
+	printf("Liczb dodatnich: %d, liczb ujemnych: %d, liczb będących zerem: %d\nLiczby:\n",iloscd,iloscu,iloscz);
 	for(i=0;i<ilosc;i++){
 		printf("%lf\n", liczby[i]);
 	}
