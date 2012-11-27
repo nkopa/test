@@ -10,7 +10,7 @@ void main(){
 	double liczba = 0;
 	int i = 0;
 	
-	//Dane statystyczne
+	//Dane statystyczne.
 	int iloscd = 0;
 	int iloscz = 0;
 	int iloscu = 0;
